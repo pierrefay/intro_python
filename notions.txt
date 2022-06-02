@@ -1,0 +1,7 @@
+- principe d'un fichier python
+- savoir utiliser une variable
+- savoir utiliser une boucle
+- savoir utiliser un if
+- savoir installer une librairie python
+- savoir utiliser la doc d'une librairie python (pandas: read_csv, sum, shape, )
+- savoir utiliser google pour chercher comment faire quelque chose (lire la liste des fichiers d'un dossier)
