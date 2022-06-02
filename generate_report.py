@@ -1,8 +1,7 @@
 import glob
 import pandas as pd
 
-folder ='fichiers/'
-fichiers = glob.glob(folder+"*.csv")
+fichiers = glob.glob("fichiers/*.csv")
 nombre_de_lignes = 0
 sum = 0
 
@@ -11,7 +10,6 @@ for fichier in fichiers:
     nombre_de_lignes = nombre_de_lignes + int(tmpdf.shape[0])
     sum = sum + tmpdf['prix'].sum()
 
-print('nombre de ligne:'+str(nombre_de_lignes))
-print('sum:'+str(sum))
 mean = sum/nombre_de_lignes
-print('mean:'+str(int(mean)))
+print('Moyennes: '+str(int(mean)))
+print('Nombre de Villas: '+str(int(nombre_de_lignes)))
